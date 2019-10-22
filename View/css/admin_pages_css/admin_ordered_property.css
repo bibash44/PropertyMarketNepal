@@ -1,0 +1,611 @@
+ body {
+     margin: 0%;
+     top: 0%;
+     left: 0%;
+     background: rgba(230, 231, 236, 1);
+ }
+ 
+ #side-var-bar {
+     height: 100%;
+     width: 15%;
+     background: #222D32;
+     height: 100%;
+     position: fixed;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ #site-logo {
+     width: 80%;
+     float: left;
+     text-align: center;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     margin-bottom: 15%;
+ }
+ 
+ #site-logo img {
+     width: 80%;
+     float: left;
+     margin-left: 10%;
+ }
+ /*dashboard-nav buton */
+ 
+ #dashboard_page {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #dashboard_page a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #dashboard_page a:hover {
+     color: white;
+ }
+ /*property details */
+ 
+ #property-list {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ /*house details page buton */
+ 
+ #house_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #house_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #house_details_page-nav a:hover {
+     color: white;
+ }
+ /*flat details page */
+ 
+ #flat_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #flat_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #flat_details_page-nav a:hover {
+     color: white;
+ }
+ /*room details page */
+ 
+ #room_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #room_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #room_details_page-nav a:hover {
+     color: white;
+ }
+ /*land details page */
+ 
+ #land_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #land_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #land_details_page-nav a:hover {
+     color: white;
+ }
+ /*user messages list */
+ 
+ #messages-list {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ /*messages details page */
+ 
+ .messages_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ .messages_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ .messages_details_page-nav a:hover {
+     color: white;
+ }
+ 
+ .total-messages {
+     border-radius: 150px;
+     background: rgba(0, 115, 183, 1);
+     display: inline-block;
+     color: white;
+     margin-left: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 13px;
+ }
+ /*ordered property list */
+ 
+ #ordered-property {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ 
+ .ordered_property_list {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+     background: rgba(150, 147, 161, 0.541);
+ }
+ 
+ .ordered_property_list a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ .ordered_property_list a:hover {
+     color: white;
+ }
+ /*best selling property list */
+ 
+ #best_selling_property {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ 
+ #best_selling_property_list {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #best_selling_property_list a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #best_selling_property_list a:hover {
+     color: white;
+ }
+ /* end of side nav bar */
+ /*start of horizontal nav bar */
+ 
+ #horizontal-nav-bar {
+     width: 85%;
+     float: left;
+     font-size: 20px;
+     background: rgb(255, 255, 255);
+     color: black;
+     margin-left: 10%;
+     padding-left: 5%;
+     box-shadow: 5px 5px 15px rgba(25, 38, 40);
+     padding-bottom: 25px;
+ }
+ 
+ #admin-status {
+     margin-left: 1%;
+     margin-top: 2%;
+     float: left;
+ }
+ 
+ #admin_avatar {
+     width: 25%;
+     float: left;
+     margin-top: 1%;
+     margin-left: 1%;
+     border-radius: 150px;
+ }
+ 
+ #admin_avatar img {
+     width: 20%;
+     float: left;
+     border-radius: 150px;
+ }
+ 
+ #page-body-details {
+     width: 85%;
+     float: left;
+     height: 100%;
+     font-size: 20px;
+     background: rgba(241, 242, 247, 1);
+     color: black;
+     margin-left: 15%;
+     margin-top: 1%;
+ }
+ /* ordered house details */
+ 
+ #house-details-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ #house-dashboard {
+     float: left;
+     width: 20%;
+     margin: 5px;
+     border: 0.1px solid rgb(29, 28, 28, 0.2);
+     margin-left: 3%;
+     margin-top: 2%;
+ }
+ 
+ #house-logo {
+     width: 50%;
+     background: rgba(56, 39, 179, 1);
+     color: white;
+     font-size: 60px;
+     float: left;
+     text-align: center;
+ }
+ 
+ #house-number {
+     width: 50%;
+     float: left;
+     font-size: 20px;
+     text-align: center;
+ }
+ /*available users and send message */
+ 
+ #ordered-houses {
+     margin-top: 15%;
+     margin-bottom: 15%;
+ }
+ 
+ #ordered-houses-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+     width: 100%;
+     border: 1px solid #ddd;
+     font-size: 15px;
+ }
+ 
+ th,
+ td {
+     text-align: left;
+     padding: 16px;
+ }
+ 
+ tr:nth-child(even) {
+     background-color: #ffffff;
+ }
+ 
+ table tr textarea {
+     resize: none;
+     border-radius: 5px;
+     outline: none;
+ }
+ 
+ #confirm-house-order-by-admin button {
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     background: rgba(33, 112, 33);
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     border-radius: 5px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 100px;
+     box-shadow: 5px 5px 5px #888888;
+ }
+ 
+ #confirm-house-order-by-admin button:hover {
+     box-shadow: 0px 0px 0px #888888;
+ }
+ /* ordered flat details */
+ 
+ #flat-details-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     margin-top: 5%;
+ }
+ 
+ #flat-dashboard {
+     float: left;
+     width: 20%;
+     margin: 5px;
+     border: 0.1px solid rgb(29, 28, 28, 0.2);
+     margin-left: 3%;
+     margin-top: 2%;
+     margin-bottom: 2%;
+ }
+ 
+ #flat-logo {
+     width: 50%;
+     background: rgba(203, 155, 41, 1);
+     color: white;
+     font-size: 60px;
+     float: left;
+     text-align: center;
+ }
+ 
+ #flat-number {
+     width: 50%;
+     float: left;
+     font-size: 20px;
+     text-align: center;
+ }
+ /*available users and send message */
+ 
+ #ordered-flats {
+     margin-top: 15%;
+     margin-bottom: 15%;
+ }
+ 
+ #ordered-flats-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ #confirm-flat-order-by-admin button {
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     background: rgba(33, 112, 33);
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     border-radius: 5px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 100px;
+     box-shadow: 5px 5px 5px #888888;
+ }
+ 
+ #confirm-flat-order-by-admin button:hover {
+     box-shadow: 0px 0px 0px #888888;
+ }
+ /* ordered room details */
+ 
+ #room-details-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     margin-top: 5%;
+ }
+ 
+ #room-dashboard {
+     float: left;
+     width: 20%;
+     margin: 5px;
+     border: 0.1px solid rgb(29, 28, 28, 0.2);
+     margin-left: 3%;
+     margin-top: 2%;
+     margin-bottom: 2%;
+ }
+ 
+ #room-logo {
+     width: 50%;
+     background: rgba(210, 75, 62, 1);
+     color: white;
+     font-size: 60px;
+     float: left;
+     text-align: center;
+ }
+ 
+ #room-number {
+     width: 50%;
+     float: left;
+     font-size: 20px;
+     text-align: center;
+ }
+ /*available users and send message */
+ 
+ #ordered-rooms {
+     margin-top: 15%;
+     margin-bottom: 15%;
+ }
+ 
+ #ordered-rooms-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ #confirm-room-order-by-admin button {
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     background: rgba(33, 112, 33);
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     border-radius: 5px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 100px;
+     box-shadow: 5px 5px 5px #888888;
+ }
+ 
+ #confirm-room-order-by-admin button:hover {
+     box-shadow: 0px 0px 0px #888888;
+ }
+ /* ordered land details */
+ 
+ #land-details-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     margin-top: 5%;
+ }
+ 
+ #land-dashboard {
+     float: left;
+     width: 20%;
+     margin: 5px;
+     border: 0.1px solid rgb(29, 28, 28, 0.2);
+     margin-left: 3%;
+     margin-top: 2%;
+     margin-bottom: 2%;
+ }
+ 
+ #land-logo {
+     width: 50%;
+     background: rgba(35, 147, 46, 1);
+     color: white;
+     font-size: 60px;
+     float: left;
+     text-align: center;
+ }
+ 
+ #land-number {
+     width: 50%;
+     float: left;
+     font-size: 20px;
+     text-align: center;
+ }
+ /*available users and send message */
+ 
+ #ordered-lands {
+     margin-top: 15%;
+     margin-bottom: 15%;
+ }
+ 
+ #ordered-lands-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+ }
+ 
+ #confirm-land-order-by-admin button {
+     border: none;
+     outline: none;
+     color: white;
+     font-size: 15px;
+     cursor: pointer;
+     background: rgba(33, 112, 33);
+     padding-left: 15px;
+     padding-right: 15px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     border-radius: 5px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     width: 100px;
+     box-shadow: 5px 5px 5px #888888;
+ }
+ 
+ #confirm-land-order-by-admin button:hover {
+     box-shadow: 0px 0px 0px #888888;
+ }

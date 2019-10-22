@@ -1,0 +1,731 @@
+ body {
+     margin: 0%;
+     top: 0%;
+     left: 0%;
+     background: rgba(230, 231, 236, 1);
+ }
+ 
+ #side-var-bar {
+     height: 100%;
+     width: 15%;
+     background: #222D32;
+     height: 100%;
+     position: fixed;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ #site-logo {
+     width: 80%;
+     float: left;
+     text-align: center;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     margin-bottom: 15%;
+ }
+ 
+ #site-logo img {
+     width: 80%;
+     float: left;
+     margin-left: 10%;
+ }
+ /*dashboard-nav buton */
+ 
+ #user_index_page {
+     width: 100%;
+     float: left;
+     background: rgba(150, 147, 161, 0.541);
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #user_index_page a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #user_index_page a:hover {
+     color: white;
+ }
+ /*property details */
+ 
+ #property-list {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ /*house details page buton */
+ 
+ #house_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #house_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #house_details_page-nav a:hover {
+     color: white;
+ }
+ /*flat details page */
+ 
+ #flat_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #flat_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #flat_details_page-nav a:hover {
+     color: white;
+ }
+ /*room details page */
+ 
+ #room_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #room_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #room_details_page-nav a:hover {
+     color: white;
+ }
+ /*land details page */
+ 
+ #land_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #land_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #land_details_page-nav a:hover {
+     color: white;
+ }
+ /*user messages list */
+ 
+ #messages-list {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ /*messages details page */
+ 
+ .messages_details_page-nav {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ .messages_details_page-nav a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ .messages_details_page-nav a:hover {
+     color: white;
+ }
+ 
+ .total-messages {
+     border-radius: 150px;
+     background: rgba(0, 115, 183, 1);
+     display: inline-block;
+     color: white;
+     margin-left: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 13px;
+ }
+ /*ordered property list */
+ 
+ #ordered-property {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ 
+ .ordered_property_list {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ .ordered_property_list a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ .ordered_property_list a:hover {
+     color: white;
+ }
+ /*best selling property list */
+ 
+ #favourite_property {
+     color: rgb(160, 155, 155);
+     float: left;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     width: 80%;
+     font-size: 15px;
+     margin-top: 15%;
+     margin-left: 10%;
+     border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+     padding-bottom: 5px;
+     margin-bottom: 5%;
+ }
+ 
+ #favourite_property_list {
+     width: 100%;
+     float: left;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+     text-align: center;
+ }
+ 
+ #favourite_property_list a {
+     color: rgb(233, 227, 227);
+     text-decoration: none;
+ }
+ 
+ #favourite_property_list a:hover {
+     color: white;
+ }
+ /* end of side nav bar */
+ /*start of horizontal nav bar */
+ 
+ #horizontal-nav-bar {
+     width: 100%;
+     float: left;
+     font-size: 20px;
+     background: rgb(255, 255, 255);
+     color: black;
+     margin-left: 10%;
+     padding-left: 5%;
+     box-shadow: 5px 5px 15px rgba(25, 38, 40);
+     padding-bottom: 25px;
+ }
+ 
+ #user-status {
+     margin-left: 1%;
+     margin-top: 2%;
+     float: left;
+     font-size: 15px;
+ }
+ 
+ #user_avatar {
+     width: 25%;
+     float: left;
+     margin-top: 1%;
+     margin-left: 1%;
+     border-radius: 150px;
+ }
+ 
+ #user_avatar img {
+     width: 20%;
+     float: left;
+     border-radius: 150px;
+ }
+ 
+ #logout {
+     width: 20%;
+     float: right;
+     margin-right: 10%;
+     margin-top: 2%;
+ }
+ 
+ #logout button {
+     border: none;
+     outline: none;
+     border-radius: 50px;
+     color: black;
+     cursor: pointer;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 18px;
+     float: left;
+ }
+ 
+ #logout button:hover {
+     transition: 0.2s all;
+     border: 1px solid rgb(17, 17, 19);
+     background: none;
+     color: black;
+ }
+ 
+ #page-body-details {
+     width: 100%;
+     float: left;
+     height: 100%;
+     font-size: 20px;
+     background: rgba(241, 242, 247, 1);
+     color: black;
+     margin-left: 15%;
+     margin-top: 1%;
+ }
+ 
+ #body-details-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 1%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-size: 15px;
+ }
+ 
+ #property-dashboard {
+     float: left;
+     width: 100%;
+     font-size: 15px;
+     margin-top: 3%;
+     border-top: 1px solid rgb(170, 161, 161);
+     border-bottom: 1px solid rgb(170, 161, 161);
+     padding-top: 2%;
+     padding-bottom: 5%;
+ }
+ /*best selling property slideshow */
+ 
+ .slideshow-container {
+     max-width: 700px;
+     position: relative;
+     margin: auto;
+     margin-top: 5%;
+     margin-left: 8%;
+ }
+ /* Hide the images by default */
+ 
+ .mySlides {
+     display: none;
+ }
+ /* Next & previous buttons */
+ 
+ .prev,
+ .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+ }
+ /* Position the "next button" to the right */
+ 
+ .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+ }
+ /* On hover, add a black background color with a little bit see-through */
+ 
+ .prev:hover,
+ .next:hover {
+     background-color: rgba(0, 0, 0, 0.8);
+ }
+ /* Caption text */
+ 
+ .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+ }
+ /* Number text (1/3 etc) */
+ 
+ .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+ }
+ /* The dots/bullets/indicators */
+ 
+ .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+ }
+ 
+ .active,
+ .dot:hover {
+     background-color: #717171;
+ }
+ /* Fading animation */
+ 
+ .fade {
+     -webkit-animation-name: fade;
+     -webkit-animation-duration: 1.5s;
+     animation-name: fade;
+     animation-duration: 1.5s;
+ }
+ 
+ @-webkit-keyframes fade {
+     from {
+         opacity: .4
+     }
+     to {
+         opacity: 1
+     }
+ }
+ 
+ @keyframes fade {
+     from {
+         opacity: .4
+     }
+     to {
+         opacity: 1
+     }
+ }
+ /*end of best selling property slide show*/
+ 
+ #search-box {
+     margin-top: 2%;
+     float: left;
+     width: 30%;
+ }
+ 
+ #search-box select {
+     border-radius: 5px;
+     font-size: 15px;
+     border: 2px solid rgb(156, 145, 145);
+     padding: 2px;
+     outline: none;
+ }
+ 
+ #search-box select option {
+     outline: none;
+     border-radius: 5px;
+ }
+ 
+ #search-box input[type="search"] {
+     border-radius: 5px;
+     outline: none;
+     font-size: 12px;
+     width: 60%;
+     padding: 5px;
+ }
+ 
+ #search-box button {
+     border: none;
+     outline: none;
+     border-radius: 5px;
+     padding-left: 10px;
+     padding-right: 10px;
+     font-size: 18px;
+     cursor: pointer;
+     box-shadow: 4px 4px 5px black;
+ }
+ 
+ #search-box button:hover {
+     box-shadow: 2px 2px 2px black;
+ }
+ 
+ #send-message-box {
+     float: left;
+     bottom: 0%;
+     right: 0%;
+     position: fixed;
+     width: 20%;
+     margin-right: 1%;
+     margin-bottom: 5%;
+     background: white;
+     border: 1px solid grey;
+     display: none;
+ }
+ 
+ #send-message-heading {
+     float: left;
+     color: white;
+     background: rgba(0, 116, 207, 1);
+     box-shadow: 0px 5px 5px black;
+     padding: 10px;
+     font-size: 12px;
+     margin-bottom: 5px;
+     margin-right: 5px;
+     width: 100%;
+     text-align: center;
+ }
+ 
+ #send-message-box button {
+     outline: none;
+     background: none;
+     border: none;
+     color: white;
+     font-weight: bold;
+     cursor: pointer;
+ }
+ 
+ #user-name {
+     float: left;
+     width: 80%;
+     font-size: 12px;
+     margin-left: 8%;
+     margin-right: 5%;
+     padding: 5px;
+     margin-top: 5%;
+     border: 2px solid grey;
+     border-radius: 5px;
+     color: grey;
+ }
+ 
+ #email {
+     float: left;
+     width: 80%;
+     font-size: 12px;
+     margin-left: 8%;
+     margin-right: 5%;
+     padding: 5px;
+     margin-top: 5%;
+     border: 2px solid grey;
+     border-radius: 5px;
+     color: grey;
+ }
+ 
+ #phone-number {
+     float: left;
+     width: 80%;
+     font-size: 12px;
+     margin-left: 8%;
+     margin-right: 5%;
+     padding: 5px;
+     margin-top: 5%;
+     border: 2px solid grey;
+     border-radius: 5px;
+     color: grey;
+ }
+ 
+ #address {
+     float: left;
+     width: 80%;
+     font-size: 12px;
+     margin-left: 8%;
+     margin-right: 5%;
+     padding: 5px;
+     margin-top: 5%;
+     border: 2px solid grey;
+     border-radius: 5px;
+     color: grey;
+ }
+ 
+ #message-area {
+     float: left;
+     width: 100%;
+     font-size: 12px;
+ }
+ 
+ #message-area input[type="submit"] {
+     width: 100%;
+     font-size: 12px;
+     border: none;
+     background: rgba(0, 116, 207, 1);
+     color: white;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+     box-shadow: 0px -5px 5px black;
+     margin-top: 10px;
+ }
+ 
+ #message-area textarea {
+     width: 80%;
+     margin-left: 9%;
+     border: 3px solid grey;
+     margin-top: 8%;
+     resize: none;
+     border-radius: 5px;
+     outline: none;
+     padding-bottom: 25px;
+     font-size: 12px;
+ }
+ 
+ #message-area input[type="submit"]:hover {
+     box-shadow: 0px -2px 2px black;
+ }
+ 
+ #show-message-box {
+     bottom: 0%;
+     right: 0%;
+     position: fixed;
+     margin-right: 0%;
+     background: rgba(0, 115, 183, 1);
+     color: white;
+     padding: 10px;
+     border-radius: 2px;
+     font-size: 15px;
+     width: 15%;
+     text-align: center;
+ }
+ 
+ #show-message-box button {
+     background: none;
+     color: white;
+     outline: none;
+     text-align: center;
+     border: none;
+     cursor: pointer;
+ }
+ 
+ #message-info {
+     text-align: center;
+     font-size: 12px;
+     color: red;
+     float: left;
+     width: 100%;
+     margin-top: 10px;
+ }
+ /*user update profile */
+ 
+ #user-update-profile {
+     float: left;
+     margin-top: 5%;
+     width: 100%;
+     margin-left: -5%;
+ }
+ 
+ #update-profile-heading {
+     background: white;
+     float: left;
+     width: 99%;
+     padding-left: 6%;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     font-size: 15px;
+ }
+ 
+ #update-profile-form {
+     width: 50%;
+     margin-left: 15%;
+     color: black;
+ }
+ 
+ #update-profile-form {
+     font-size: 15px;
+     border: 2px solid grey;
+     border-radius: 5px;
+     float: left;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     text-align: center;
+ }
+ 
+ #update-profile-form input[type=text] {
+     outline: none;
+     margin-left: 5%;
+     margin-top: 5%;
+     border-radius: 5px;
+ }
+ 
+ #update-profile-form input[type="submit"] {
+     outline: none;
+     background: rgb(102, 98, 98);
+     border: none;
+     margin-top: 5%;
+     color: white;
+     box-shadow: 5px 5px 5px black;
+     margin-bottom: 5%;
+     border-radius: 5px;
+     font-size: 12px;
+     width: 50%;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     cursor: pointer;
+ }
+ 
+ #update-profile-form input[type="submit"]:hover {
+     box-shadow: 2px 2px 2px black;
+ }
+ 
+ #user_manual_page {
+     width: 35%;
+     float: right;
+     margin-right: 8%;
+     padding-left: 13px;
+     padding-right: 13px;
+     background: white;
+     border: 1px solid black;
+     border-radius: 50px;
+     text-align: center;
+ }
+ 
+ #user_manual_page a {
+     text-decoration: none;
+     color: black;
+     font-size: 17px;
+ }
+ 
+ #user_manual_page:hover {
+     transition: 0.2s all;
+     background: rgb(211, 211, 211);
+     border: none;
+ }

@@ -1,0 +1,94 @@
+body {
+    background: url("../photos/Logos/Index_page_background_image2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav-bar {
+    width: 100%;
+    position: fixed;
+}
+
+#site-logo {
+    float: left;
+    width: 25%;
+}
+
+#site-logo img {
+    width: 50%;
+}
+
+#nav-bar-buttons-group {
+    color: white;
+    font-size: 20px;
+    float: right;
+    width: 33%;
+    margin-top: 2%;
+    margin-left: 25%;
+    font-family: "Times New Roman";
+}
+
+#nav-bar-buttons-group a {
+    color: white;
+    text-decoration: none;
+}
+
+#login-button {
+    float: left;
+    text-shadow: 5px 5px 5px rgba(39, 40, 34, 1);
+    margin-right: 8%;
+}
+
+#login-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+#signup-button {
+    float: left;
+    text-shadow: 5px 5px 5px rgba(39, 40, 34, 1);
+    margin-right: 8%;
+}
+
+#signup-button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: none;
+}
+
+#contactus-button {
+    float: left;
+    margin-left: 1%;
+    width: 33%;
+    text-shadow: 5px 5px 5px rgba(39, 40, 34, 1);
+}
+
+#contactus-button a:hover {
+    text-decoration: underline;
+    text-shadow: none;
+}
+
+#white-background {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(109, 109, 109, 0.3);
+    z-index: 9999;
+}
+
+#footer-div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    opacity: 0.8;
+}

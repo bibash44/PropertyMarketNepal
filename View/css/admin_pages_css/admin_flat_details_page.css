@@ -1,0 +1,582 @@
+body {
+    margin: 0%;
+    top: 0%;
+    left: 0%;
+    background: rgba(230, 231, 236, 1);
+}
+
+#side-var-bar {
+    height: 100%;
+    width: 15%;
+    background: #222D32;
+    height: 100%;
+    position: fixed;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#site-logo {
+    width: 80%;
+    float: left;
+    text-align: center;
+    margin-left: 10%;
+    border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+    margin-bottom: 15%;
+}
+
+#site-logo img {
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+
+
+/*dashboard-nav buton */
+
+#dashboard_page {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#dashboard_page a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#dashboard_page a:hover {
+    color: white;
+}
+
+
+/*property details */
+
+#property-list {
+    color: rgb(160, 155, 155);
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+
+
+/*flat details page buton */
+
+#house_details_page-nav {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#house_details_page-nav a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#house_details_page-nav a:hover {
+    color: white;
+}
+
+
+/*flat details page */
+
+#flat_details_page-nav {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgba(150, 147, 161, 0.541);
+}
+
+#flat_details_page-nav a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#flat_details_page-nav a:hover {
+    color: white;
+}
+
+
+/*room details page */
+
+#room_details_page-nav {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#room_details_page-nav a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#room_details_page-nav a:hover {
+    color: white;
+}
+
+
+/*land details page */
+
+#land_details_page-nav {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#land_details_page-nav a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#land_details_page-nav a:hover {
+    color: white;
+}
+
+
+/*user messages list */
+
+#messages-list {
+    color: rgb(160, 155, 155);
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+
+
+/*messages details page */
+
+.messages_details_page-nav {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.messages_details_page-nav a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+.messages_details_page-nav a:hover {
+    color: white;
+}
+
+.total-messages {
+    border-radius: 150px;
+    background: rgba(0, 115, 183, 1);
+    display: inline-block;
+    color: white;
+    margin-left: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+}
+
+
+/*ordered property list */
+
+#ordered-property {
+    color: rgb(160, 155, 155);
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+
+.ordered_property_list {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.ordered_property_list a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+.ordered_property_list a:hover {
+    color: white;
+}
+
+
+/*best selling property list */
+
+#best_selling_property {
+    color: rgb(160, 155, 155);
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+    margin-top: 15%;
+    margin-left: 10%;
+    border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+    padding-bottom: 5px;
+    margin-bottom: 5%;
+}
+
+#best_selling_property_list {
+    width: 100%;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#best_selling_property_list a {
+    color: rgb(233, 227, 227);
+    text-decoration: none;
+}
+
+#best_selling_property_list a:hover {
+    color: white;
+}
+
+
+/* end of side nav bar */
+
+
+/*start of horizontal nav bar */
+
+#horizontal-nav-bar {
+    width: 85%;
+    float: left;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    color: black;
+    margin-left: 10%;
+    padding-left: 5%;
+    box-shadow: 5px 5px 15px rgba(25, 38, 40);
+    padding-bottom: 25px;
+}
+
+#admin-status {
+    margin-left: 1%;
+    margin-top: 2%;
+    float: left;
+}
+
+#admin_avatar {
+    width: 25%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+    border-radius: 150px;
+}
+
+#admin_avatar img {
+    width: 20%;
+    float: left;
+    border-radius: 150px;
+}
+
+#page-body-details {
+    width: 85%;
+    float: left;
+    height: 100%;
+    font-size: 20px;
+    background: rgba(241, 242, 247, 1);
+    color: black;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+
+#body-details-heading {
+    background: white;
+    float: left;
+    width: 99%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/*flat dashboard */
+
+
+/*end of property details */
+
+
+/*start of flat-form design*/
+
+#flat-box {
+    display: block;
+    float: left;
+    width: 75%;
+    background-color: rgba(255, 255, 255, 1);
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+#flat-header {
+    background-color: rgba(203, 155, 41, 1);
+    width: 50%;
+    color: white;
+    float: left;
+    font-size: 20px;
+}
+
+#flat-header-text1 {
+    width: 100%;
+    font-size: 45px;
+    float: left;
+}
+
+#flat-header-text2 {
+    float: left;
+    margin-bottom: 25%;
+}
+
+#flat-header-logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 40%;
+}
+
+#flat-header-logo img {
+    width: 100%;
+}
+
+#flat-input {
+    width: 50%;
+    float: left;
+}
+
+#flat-form {
+    text-align: center;
+    font-size: 13px;
+}
+
+.upload-flat-form input[type="email"],
+input[type="text"],
+input[type="number"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    margin-top: 5%;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#flat-form textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    margin-top: 5%;
+    width: 80%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 5%;
+    resize: none;
+}
+
+#flat-form input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: rgba(203, 155, 41, 1);
+    color: white;
+    width: 80%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 7%;
+    font-size: 15px;
+    box-shadow: 5px 10px 15px #888888;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+}
+
+#flat-form input[type="submit"]:hover {
+    background: rgba(203, 155, 41, 0.9);
+}
+
+#flat-form input[type="file"] {}
+
+#flat-form input[type="text"]:focus,
+input[type="number"]:focus {
+    border-bottom: 2px solid rgba(203, 155, 41, 0.9);
+    transition: 0.5s all;
+    font-size: 14px;
+}
+
+textarea:focus {
+    transition: 0.5s all;
+    font-size: 14px;
+}
+
+#photo-of-flat input[type="file"] {
+    display: none;
+}
+
+#photo-of-flat label {
+    background: rgba(186, 185, 189, 1);
+    font-size: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+#photo-of-flat {
+    margin-top: 5%;
+    text-align: left;
+    margin-left: 14%;
+}
+
+
+/*edit flat */
+
+#edit-flat {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+#edit-flat-heading {
+    background: white;
+    float: left;
+    width: 99%;
+    padding-left: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+table tr textarea {
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+table input[type="number"] {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+table input[type="text"] {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+table input[type="number"]:focus,
+input[type="text"]:focus {
+    font-size: 15px;
+    border-bottom: none;
+}
+
+table textarea {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    font-size: 12px;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
+
+table textarea:focus {
+    font-size: 12px;
+    border-bottom: none;
+}
+
+#flat-update-button button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(33, 112, 33, 1);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #353333;
+}
+
+#flat-update-button button:hover {
+    box-shadow: 0px 0px 0px #353333;
+}
+
+#flat-delete-button button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgba(230, 69, 63, 1);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #353333;
+}
+
+#flat-delete-button button:hover {
+    box-shadow: 0px 0px 0px #353333;
+}
+
+table td img {
+    width: 100%;
+}

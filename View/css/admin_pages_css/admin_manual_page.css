@@ -1,0 +1,23 @@
+body {
+    margin: 0%;
+}
+
+#admin-manual-page-container {
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+#admin-manual-page-container img {
+    width: 80%;
+}
+
+#manual_heading {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 2px solid black;
+    color: 15px;
+    font-weight: bold;
+}

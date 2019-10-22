@@ -1,0 +1,9 @@
+{
+  "vscode-php-cs-fixer.fixOnSave": false,
+  "vscode-janus-debug.uploadOnSave": [
+    "javascript"
+  ],
+  "vscode-janus-debug.uploadManually": [
+    "ajax2"
+  ]
+}

@@ -1,0 +1,364 @@
+body {
+    background: url("../photos/Logos/Contact_us_background1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav-bar {
+    width: 100%;
+    position: fixed;
+    margin: 0%;
+}
+
+#site-logo {
+    float: left;
+    width: 50%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+
+#site-logo img {
+    width: 25%;
+}
+
+#white-background {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    float: left;
+}
+
+#scrolldown {
+    float: left;
+    bottom: 1%;
+    right: 1%;
+    position: fixed;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#errorvalidation {
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#scrolldown a {
+    color: white;
+}
+
+#contactuspage {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#pageheading {
+    width: 10%;
+    float: left;
+    margin-left: 45%;
+    font-size: 25px;
+    border-bottom: 5px solid rgba(102, 51, 153, 1);
+    color: white;
+    text-align: center;
+    font-family: "callibari";
+}
+
+#contact_us_form_wrapper {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    color: white;
+    float: left;
+    box-shadow: 10px 10px 10px rgba(25, 26, 22, 0.5);
+    border-radius: 5px;
+}
+
+#form_header {
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin-top: 2%;
+    font-size: 18px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+    font-family: "Lucida Calligraphy";
+}
+
+#contact_us_from {
+    width: 100%;
+    float: left;
+}
+
+#contact_us_header {
+    width: 100%;
+    text-align: center;
+    border-bottom: 5px solid rebeccapurple;
+    font-size: 25px;
+    font-family: Forte;
+    float: left;
+}
+
+#contact_us_main_from {
+    float: left;
+    width: 100%;
+}
+
+form {
+    float: left;
+    width: 100%;
+}
+
+input[type="text"],
+input[type="email"] {
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    font: 100;
+    font-family: sans-serif;
+    width: 90%;
+    font-family: "Centaur";
+    font-size: 17px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    transition: 0.5s all;
+    font-size: 18px;
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: rgb(173, 168, 168);
+}
+
+#name,
+#email,
+#phonenumber {
+    margin-left: 5%;
+}
+
+textarea {
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+    margin-left: 7%;
+    width: 90%;
+    padding-bottom: 10%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+textarea:focus {
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
+    transition: 0.5s ease-out all;
+    font-size: 15px;
+    outline: none;
+}
+
+#message {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#sendmessage {
+    float: left;
+    width: 100%;
+    background: rgba(102, 51, 153, 0.8);
+    border: none;
+    outline: none;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 25px;
+}
+
+#sendmessage:hover {
+    background: rgba(102, 51, 153, 1);
+    transition: ease-in-out 1s all;
+}
+
+#googlemapwrapper {
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#map_header {
+    width: 15%;
+    margin-left: 42%;
+    float: left;
+    text-align: center;
+    font-family: "callibari";
+    color: white;
+    font-size: 25px;
+    border-bottom: 5px solid rgba(26, 162, 96, 1);
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+#mapstatustext {
+    width: 50%;
+    margin-left: 25%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background: rgba(222, 95, 82, 1);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 2%;
+    display: none;
+}
+
+#mainmap {
+    float: left;
+    width: 80%;
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    margin-left: 10%;
+    border-radius: 10px;
+}
+
+#mainmap iframe {
+    width: 100%;
+    float: left;
+    height: 500px;
+}
+
+#footer {
+    float: left;
+    bottom: 0%;
+    left: 0%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#footer-header {
+    width: 100%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+}
+
+#footer-header-heading {
+    color: white;
+    width: 20%;
+    border-bottom: 5px solid rgba(255, 206, 68, 1);
+    font-size: 25px;
+    margin-left: 45%;
+    font-family: "callibari";
+    float: left;
+}
+
+#contact-us-information {
+    width: 100%;
+    margin-top: 2%;
+    background-color: white;
+    float: left;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding-bottom: 2%;
+}
+
+#contact_us_icons {
+    width: 100%;
+    float: left;
+    margin-left: 10%;
+}
+
+#icons1 {
+    float: left;
+    width: 25%;
+    font-size: 35px;
+    color: rgba(223, 96, 84, 1);
+}
+
+#icons2 {
+    float: left;
+    width: 25%;
+    font-size: 35px;
+    color: rgba(62, 91, 153, 1);
+}
+
+#icons3 {
+    float: left;
+    width: 25%;
+    font-size: 35px;
+}
+
+#icons4 {
+    float: left;
+    width: 25%;
+    font-size: 35px;
+    color: rgba(0, 230, 118, 1);
+}
+
+#contact_us_icons-information {
+    width: 100%;
+    float: left;
+}
+
+#icons1-info {
+    float: left;
+    font-size: 15px;
+    margin-left: 2%;
+}
+
+#icons2-info {
+    float: left;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+#icons3-info {
+    float: left;
+    margin-left: 6%;
+}
+
+#icons4-info {
+    float: left;
+    margin-left: 10%;
+}
+
+#icons1-info a,
+#icons2-info a,
+#icons4-info a {
+    text-decoration: none;
+    color: black;
+}
+
+#icons1-info a:hover,
+#icons2-info a:hover,
+#icons4-info a:hover {
+    text-decoration: underline;
+}
+
+#Copyright-text {
+    width: 90%;
+    color: black;
+    text-align: center;
+    margin-top: 10%;
+    border-top: 0.5px solid rgb(160, 156, 156, 0.8);
+    padding-top: 2%;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 5%;
+}

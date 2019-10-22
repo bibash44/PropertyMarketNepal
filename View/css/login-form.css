@@ -1,0 +1,143 @@
+/*start of login-form design*/
+
+#login-box {
+    display: none;
+    position: fixed;
+    float: left;
+    width: 50%;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.5);
+    margin-left: 25%;
+    margin-top: 10%;
+}
+
+#login-header {
+    background-color: rgba(24, 161, 95, 0.9);
+    width: 50%;
+    color: white;
+    float: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#login-header-text1 {
+    width: 100%;
+    font-size: 45px;
+    float: left;
+}
+
+#login-header-text2 {
+    float: left;
+    margin-bottom: 25%;
+}
+
+#login-header-logo {
+    float: left;
+    width: 50%;
+    text-align: center;
+    margin-right: 25%;
+    margin-top: 30%;
+}
+
+#login-header-logo img {
+    width: 100%;
+}
+
+#login-input {
+    width: 50%;
+    float: left;
+}
+
+#close-login {
+    float: left;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    margin-left: 93%;
+}
+
+#close-login:hover {
+    color: green;
+}
+
+#login-form {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Bookman Old Style";
+}
+
+#login-form input[type="email"],
+input[type="password"] {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 30px;
+    margin-top: 10%;
+    width: 80%;
+    font-size: 13px;
+}
+
+#login-form input[type="submit"] {
+    border: none;
+    outline: none;
+    background-color: rgba(25, 161, 95, 0.9);
+    color: white;
+    width: 80%;
+    height: 40px;
+    margin-top: 5%;
+    margin-left: 7%;
+    box-shadow: 2px 5px 15px #888888;
+}
+
+#login-form input[type="email"]:focus,
+input[type="password"]:focus {
+    border-bottom: 2px solid rgba(25, 161, 95, 0.9);
+    transition: 0.5s all;
+    font-size: 14px;
+}
+
+#login-form input[type="submit"]:hover {
+    background-color: rgba(25, 161, 95, 1);
+}
+
+#go-to-singup-form {
+    color: white;
+    background: rgba(0, 120, 215, 0.9);
+    border: none;
+    height: 40px;
+    outline: none;
+    border: none;
+    width: 80%;
+    margin-left: 13%;
+    padding: 10px;
+    margin-top: 8.5%;
+    cursor: pointer;
+    box-shadow: 5px 10px 15px #888888;
+}
+
+#go-to-singup-form:hover {
+    background: rgba(0, 120, 215, 1);
+}
+
+#forgot-password-link {
+    float: left;
+    text-align: left;
+    width: 100%;
+    margin-top: 2%;
+    margin-left: 13%;
+}
+
+#forgot-password-link a {
+    color: black;
+    font-size: 14px;
+}
+
+#new-user-signup-info {
+    margin-top: 6%;
+}
+
+
+/*end of login form design*/

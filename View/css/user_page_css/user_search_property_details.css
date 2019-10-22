@@ -1,0 +1,740 @@
+     body {
+         margin: 0%;
+         top: 0%;
+         left: 0%;
+         background: rgba(230, 231, 236, 1);
+     }
+     
+     #side-var-bar {
+         height: 100%;
+         width: 15%;
+         background: #222D32;
+         height: 100%;
+         position: fixed;
+         font-family: 'Times New Roman', Times, serif;
+     }
+     
+     #site-logo {
+         width: 80%;
+         float: left;
+         text-align: center;
+         margin-left: 10%;
+         border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+         margin-bottom: 15%;
+     }
+     
+     #site-logo img {
+         width: 80%;
+         float: left;
+         margin-left: 10%;
+     }
+     /*dashboard-nav buton */
+     
+     #user_index_page {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+         color: green;
+     }
+     
+     #user_index_page a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #user_index_page a:hover {
+         color: white;
+     }
+     /*property details */
+     
+     #property-list {
+         color: rgb(160, 155, 155);
+         float: left;
+         font-family: 'Times New Roman', Times, serif;
+         text-align: center;
+         width: 80%;
+         font-size: 15px;
+         margin-top: 15%;
+         margin-left: 10%;
+         border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+         padding-bottom: 5px;
+         margin-bottom: 5%;
+     }
+     /*house details page buton */
+     
+     #house_details_page-nav {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     #house_details_page-nav a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #house_details_page-nav a:hover {
+         color: white;
+     }
+     /*flat details page */
+     
+     #flat_details_page-nav {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     #flat_details_page-nav a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #flat_details_page-nav a:hover {
+         color: white;
+     }
+     /*room details page */
+     
+     #room_details_page-nav {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     #room_details_page-nav a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #room_details_page-nav a:hover {
+         color: white;
+     }
+     /*land details page */
+     
+     #land_details_page-nav {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     #land_details_page-nav a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #land_details_page-nav a:hover {
+         color: white;
+     }
+     /*user messages list */
+     
+     #messages-list {
+         color: rgb(160, 155, 155);
+         float: left;
+         font-family: 'Times New Roman', Times, serif;
+         text-align: center;
+         width: 80%;
+         font-size: 15px;
+         margin-top: 15%;
+         margin-left: 10%;
+         border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+         padding-bottom: 5px;
+         margin-bottom: 5%;
+     }
+     /*messages details page */
+     
+     .messages_details_page-nav {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     .messages_details_page-nav a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     .messages_details_page-nav a:hover {
+         color: white;
+     }
+     
+     .total-messages {
+         border-radius: 150px;
+         background: rgba(0, 115, 183, 1);
+         display: inline-block;
+         color: white;
+         margin-left: 5px;
+         padding-left: 10px;
+         padding-right: 10px;
+         font-size: 13px;
+     }
+     /*ordered property list */
+     
+     #ordered-property {
+         color: rgb(160, 155, 155);
+         float: left;
+         font-family: 'Times New Roman', Times, serif;
+         text-align: center;
+         width: 80%;
+         font-size: 15px;
+         margin-top: 15%;
+         margin-left: 10%;
+         border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+         padding-bottom: 5px;
+         margin-bottom: 5%;
+     }
+     
+     .ordered_property_list {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     .ordered_property_list a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     .ordered_property_list a:hover {
+         color: white;
+     }
+     /*best selling property list */
+     
+     #favourite_property {
+         color: rgb(160, 155, 155);
+         float: left;
+         font-family: 'Times New Roman', Times, serif;
+         text-align: center;
+         width: 80%;
+         font-size: 15px;
+         margin-top: 15%;
+         margin-left: 10%;
+         border-bottom: 0.5px solid rgba(194, 183, 183, 0.6);
+         padding-bottom: 5px;
+         margin-bottom: 5%;
+     }
+     
+     #favourite_property_list {
+         width: 100%;
+         float: left;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         border-radius: 5px;
+         text-align: center;
+     }
+     
+     #favourite_property_list a {
+         color: rgb(233, 227, 227);
+         text-decoration: none;
+     }
+     
+     #favourite_property_list a:hover {
+         color: white;
+     }
+     /* end of side nav bar */
+     /*start of horizontal nav bar */
+     
+     #horizontal-nav-bar {
+         width: 100%;
+         float: left;
+         font-size: 20px;
+         background: rgb(255, 255, 255);
+         color: black;
+         margin-left: 10%;
+         padding-left: 5%;
+         box-shadow: 5px 5px 15px rgba(25, 38, 40);
+         padding-bottom: 25px;
+     }
+     
+     #user-status {
+         margin-left: 1%;
+         margin-top: 2%;
+         float: left;
+         font-size: 15px;
+     }
+     
+     #user_avatar {
+         width: 25%;
+         float: left;
+         margin-top: 1%;
+         margin-left: 1%;
+         border-radius: 150px;
+     }
+     
+     #user_avatar img {
+         width: 20%;
+         float: left;
+         border-radius: 150px;
+     }
+     
+     #page-body-details {
+         width: 100%;
+         float: left;
+         height: 100%;
+         font-size: 20px;
+         background: rgba(241, 242, 247, 1);
+         color: black;
+         margin-left: 15%;
+         margin-top: 1%;
+     }
+     
+     #body-details-heading {
+         background: white;
+         float: left;
+         width: 99%;
+         padding-left: 1%;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         font-size: 15px;
+     }
+     /*house details*/
+     
+     #house-details-box {
+         float: left;
+         width: 70%;
+         border: 1px solid rgb(209, 204, 204, 1);
+         margin-top: 5%;
+         margin-left: 5%;
+         margin-bottom: 5%;
+         overflow: hidden;
+         border-radius: 5px;
+     }
+     
+     #house-image {
+         width: 50%;
+         float: left;
+         overflow: hidden;
+         border: 1px solid rgb(216, 208, 208, 0.5);
+     }
+     
+     #house-info {
+         float: left;
+         width: 50%;
+         font-size: 12px;
+     }
+     
+     #house-updated-date {
+         color: grey;
+         margin-bottom: 15px;
+     }
+     
+     #house-id {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-location {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-no-of-flat {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-no-of-room {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-price {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-discount {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-description {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #house-id b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-location b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-no-of-flat b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-no-of-room b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-price b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-discount b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #house-description b {
+         color: grey;
+         font-size: 12px;
+     }
+     /*flat details*/
+     
+     #flat-details-box {
+         float: left;
+         width: 70%;
+         border: 1px solid rgb(209, 204, 204, 1);
+         margin-top: 5%;
+         margin-left: 5%;
+         margin-bottom: 5%;
+         overflow: hidden;
+         border-radius: 5px;
+     }
+     
+     #flat-image {
+         width: 50%;
+         float: left;
+         overflow: hidden;
+         border: 1px solid rgb(216, 208, 208, 0.5);
+     }
+     
+     #flat-info {
+         float: left;
+         width: 50%;
+         font-size: 12px;
+     }
+     
+     #flat-updated-date {
+         color: grey;
+         margin-bottom: 15px;
+     }
+     
+     #flat-id {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-location {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-no-of-flat {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-no-of-room {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-price {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-discount {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-description {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #flat-id b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #flat-location b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #flat-no-of-room b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #flat-price b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #flat-discount b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #flat-description b {
+         color: grey;
+         font-size: 12px;
+     }
+     /* end of flat details */
+     /*room details*/
+     
+     #room-details-box {
+         float: left;
+         width: 70%;
+         border: 1px solid rgb(209, 204, 204, 1);
+         margin-top: 5%;
+         margin-left: 5%;
+         margin-bottom: 5%;
+         overflow: hidden;
+         border-radius: 5px;
+     }
+     
+     #room-image {
+         width: 50%;
+         float: left;
+         overflow: hidden;
+         border: 1px solid rgb(216, 208, 208, 0.5);
+     }
+     
+     #room-info {
+         float: left;
+         width: 50%;
+         font-size: 12px;
+     }
+     
+     #room-updated-date {
+         color: grey;
+         margin-bottom: 15px;
+     }
+     
+     #room-id {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-location {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-area {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-price {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-discount {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-description {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #room-id b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-location b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-area b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-no-of-room b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-price b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-discount b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #room-description b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #no-search-results {
+         width: 50%;
+         float: left;
+         text-align: center;
+         margin-left: 20%;
+         border: 1px solid grey;
+         border-radius: 5px;
+         margin-bottom: 5%;
+         margin-top: 5%;
+     }
+     
+     #no-search-result-heading {
+         float: left;
+         width: 100%;
+         background: rgba(0, 120, 215, 1);
+         color: white;
+         font-size: 20px;
+     }
+     
+     #no-search-result-body {
+         float: left;
+         width: 100%;
+         color: red;
+         font-family: Arial, Helvetica, sans-serif;
+         padding-top: 5%;
+         padding-bottom: 5%;
+         font-size: 40px;
+     }
+     
+     #no-search-result-picture {
+         float: left;
+         width: 100%;
+         color: rgba(166, 166, 166, 1);
+         font-size: 45px;
+     }
+     
+     #no-search-results a {
+         text-decoration: none;
+         color: blue;
+     }
+     
+     #no-search-results a:hover {
+         text-decoration: underline;
+         color: blue;
+     }
+     /*land details*/
+     
+     #land-details-box {
+         float: left;
+         width: 70%;
+         border: 1px solid rgb(209, 204, 204, 1);
+         margin-top: 5%;
+         margin-left: 5%;
+         margin-bottom: 5%;
+         overflow: hidden;
+         border-radius: 5px;
+     }
+     
+     #land-image {
+         width: 50%;
+         float: left;
+         overflow: hidden;
+         border: 1px solid rgb(216, 208, 208, 0.5);
+     }
+     
+     #land-info {
+         float: left;
+         width: 50%;
+         font-size: 12px;
+     }
+     
+     #land-updated-date {
+         color: grey;
+         margin-bottom: 15px;
+     }
+     
+     #land-id {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-location {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-area {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-price {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-discount {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-description {
+         margin-top: 15px;
+         font-size: 15px;
+     }
+     
+     #land-id b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-location b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-area b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-no-of-land b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-price b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-discount b {
+         color: grey;
+         font-size: 12px;
+     }
+     
+     #land-description b {
+         color: grey;
+         font-size: 12px;
+     }
